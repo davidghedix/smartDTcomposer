@@ -35,3 +35,5 @@ plan
  <p align="center">
   <img width="700" src="img/workflowApp.png">
 </p>
+
+## Run Smart DT Composer
