@@ -45,5 +45,5 @@ The "src" folder includes the modules for the orhestrator and the translator. Th
   * Edit the "Engine.py" script in order to invoke the planner
   * Edit the config file to change the credentials
   
-To run the software, execute the Engine.py script.
+To run the software, execute the "Engine.py" script.
 
