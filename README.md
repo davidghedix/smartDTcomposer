@@ -31,6 +31,7 @@ plan
       2. It issues the so-generated API call and it waits for the device output
       3. It checks if there is any discrepancy between the device output and the expected output
  
+ Below, a picture of the application workflow.
  <p align="center">
   <img width="700" src="img/workflowApp.png">
 </p>
