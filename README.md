@@ -37,11 +37,12 @@ plan
 </p>
 
 ## Run Smart DT Composer
-The src folder includes the modules for the orhestrator and the translator. The device folder, instead, contains a script that emulates a physical device. Before running the software, the following operations must be done:
+The "src" folder includes the modules for the orhestrator and the translator. The "device" folder, instead, contains a script that emulates a physical device. Before running the software, the following operations must be done:
   * Provision one or more devices in Bosch IoT Things (see Bosch IoT Things documentation)
   * Descript each device following the DTPL conventions
   * Edit the context file to relfect the conditions of the factory environemnt
   * Download and install a PDDL compatible planner
+  * Edit the "Engine.py" script in order to invoke the planner
   * Edit the config file to change the credentials
 To run the software, execute the Engine.py script.
 
