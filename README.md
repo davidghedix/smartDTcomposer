@@ -26,7 +26,7 @@ plan
 * Engine, which is in charge of performing three sequential tasks:
   1. It collects the Digital Twin descriptions and their current values and send them as an input to the translator, which outputs a PDDL domain and problem files 
   2. It invokes the planner, which takes the two files as input and it outputs a plan, which consists of a linear sequence of actions
-  3. It reads the plan action by action and for each one:
+  3. It reads the plan action by action and for each one: 
     1. It obtains the correspondent API call. In fact, each action in the plan provides the necessary information to send a command to a device, namely: the name of the task, the thing that has to perform it and the required parameters
     2. It issues the so-generated API call and it waits for the device output
     3. It checks if there is any discrepancy between the device output and the expected output
