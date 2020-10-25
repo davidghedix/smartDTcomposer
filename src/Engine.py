@@ -50,7 +50,7 @@ async def executionEngine():
 
         print("Invoking planner...")
 
-        command = "./fast-downward.py " + config.PDDL["domainFile"] + " " + config.PDDL["problemFile"] + " " + "--search " + '"astar(lmcut())"' 
+        command = #INSERT THE COMMAND TO INVOKE YOUR PLANNER
 
         result = subprocess.run(command, shell = True, stdout=subprocess.PIPE)
 
