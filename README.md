@@ -32,5 +32,5 @@ plan
       3. It checks if there is any discrepancy between the device output and the expected output
  
  <p align="center">
-  <img width="460" src="img/workflowApp.png">
+  <img width="700" src="img/workflowApp.png">
 </p>
